@@ -715,8 +715,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 128.27 80.01 0)
-		(mirror x)
+		(at 128.27 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -724,7 +723,7 @@
 		(dnp no)
 		(uuid "52f63eae-56dd-44c6-9b7e-60befe28fb40")
 		(property "Reference" "J5"
-			(at 130.81 80.0101 0)
+			(at 130.81 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +732,7 @@
 			)
 		)
 		(property "Value" "VCC_IN"
-			(at 130.81 77.4701 0)
+			(at 130.81 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,8 +740,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 128.27 80.01 0)
+		(property "Footprint" "lib:XT60-RightAngle-Adapter"
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 80.01 0)
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +759,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 128.27 80.01 0)
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +774,7 @@
 			(uuid "3eb89274-b618-45f6-87e6-dde0dae5dbd5")
 		)
 		(instances
-			(project "vesc_mms_board"
+			(project "ModuCard-vesc-to-mms-converter"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/09185991-2b08-4e41-9e65-0618febadbdd"
 					(reference "J5")
 					(unit 1)
