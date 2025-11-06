@@ -1796,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 76.2) (xy 57.15 76.2)
+			(xy 53.34 76.2) (xy 57.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1946,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 73.66) (xy 57.15 73.66)
+			(xy 53.34 73.66) (xy 57.15 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2035,14 +2035,14 @@
 		(uuid "ff24e5c5-cb20-466d-85e1-430291fc72aa")
 	)
 	(label "USB_VESC_D+"
-		(at 50.8 81.28 180)
+		(at 53.34 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "564c7472-c61c-4dea-8702-c23eb687090d")
+		(uuid "4114db51-0ccc-48be-b715-e1d66518c8bd")
 	)
 	(label "USB_VESC_D+"
 		(at 214.63 68.58 180)
@@ -2065,36 +2065,14 @@
 		(uuid "c6f292a6-9d11-4e71-b5aa-ef42fd0d6e39")
 	)
 	(label "USB_VESC_D-"
-		(at 50.8 78.74 180)
+		(at 53.34 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "dbe596c0-992d-408e-944c-a6b444d69df3")
-	)
-	(global_label "USB_DOWNSTREAM_D+"
-		(shape input)
-		(at 50.8 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a4261b8-9667-40dd-b849-5fb9fc15cf23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7087 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "d7d83b7c-03da-41d2-8c01-4d756b501cbf")
 	)
 	(global_label "USB_UPSTREAM_D-"
 		(shape input)
@@ -2142,7 +2120,7 @@
 	)
 	(global_label "USB_DOWNSTREAM_D-"
 		(shape input)
-		(at 50.8 73.66 180)
+		(at 50.8 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2150,9 +2128,31 @@
 			)
 			(justify right)
 		)
-		(uuid "8d9a2c8a-cfa1-4b24-a69f-2335b605e553")
+		(uuid "8af6215c-0b1b-45fc-ac2f-962b924bf197")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7087 73.66 0)
+			(at 26.7087 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DOWNSTREAM_D+"
+		(shape input)
+		(at 50.8 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d27f0be2-2300-477b-bf96-5d4a12b92397")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.7087 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+UBS_5V"
 			(at 214.63 57.15 0)
 			(effects
 				(font
