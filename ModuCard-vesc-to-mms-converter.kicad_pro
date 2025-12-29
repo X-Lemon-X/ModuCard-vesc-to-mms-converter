@@ -63,7 +63,12 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|173048460|122370000|c69bf3c4-5cc0-4e73-bf69-4fff333a55ab|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
